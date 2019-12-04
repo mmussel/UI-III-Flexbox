@@ -64,3 +64,45 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+*{
+	max-width:100%;
+	border:1px solid black;
+}
+h1{
+	margin: 10px 400px;
+	font-size: 80px;
+	width: 20%;
+	text-align: center;
+	vertical-align: top;
+
+}
+.start{
+	display: inline-block;
+	font-size: 20px;
+	text-align: center;
+	border: 2px solid black;
+	font-family: "arial";
+	padding: 10px 30px;
+	width: 20%;
+	vertical-align: top;
+	margin: 10px 400px;
+	
+
+
+}
+.photo{
+
+	position: absolute;
+	vertical-align: top;
+	margin-left:800px;
+	margin-bottom: 800px;
+	top: 0;
+
+
+}
+.feature{
+	display: inline-block;
+	font-size: 20px;
+
+}
+
