@@ -64,10 +64,9 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-*{
+body{
 	max-width:100%;
-	border:1px solid black;
-	margin: 100px;
+	
 }
 .titles{
 	color: gray;
@@ -139,8 +138,7 @@ width: 20%;
 	float: left;
 width: 20%;
 font-size: 20px;
-margin: 50px 50px 50px 0px;
-	
+margin: 50px 50px 50px 0px;	
 }
 .vision{
 	float: right;
@@ -152,7 +150,7 @@ margin: 50px 50px 50px 0px;
 }
 .middle{
 	width: 100%;
-margin: 50px 100px 110px 20px;
+margin: 50px 100px 100px 20px;
 }
 .contact{
 	display: inline-block;
