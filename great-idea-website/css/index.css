@@ -67,13 +67,21 @@ h1, h2, h3, h4, h5 {
 *{
 	max-width:100%;
 	border:1px solid black;
+	margin: 100px;
+}
+.titles{
+	color: gray;
+	word-spacing: 100px;
+	margin: 50px 100px;
+
 }
 h1{
-	margin: 10px 400px;
+	margin: 0px 400px;
 	font-size: 80px;
 	width: 20%;
 	text-align: center;
 	vertical-align: top;
+	margin-top: 100px;
 
 }
 .start{
@@ -85,7 +93,8 @@ h1{
 	padding: 10px 30px;
 	width: 20%;
 	vertical-align: top;
-	margin: 10px 400px;
+	margin: 0px 400px;
+	margin-bottom: 100px;
 	
 
 
@@ -95,14 +104,77 @@ h1{
 	position: absolute;
 	vertical-align: top;
 	margin-left:800px;
-	margin-bottom: 800px;
+	margin-top: 90px;
 	top: 0;
-
-
+}
+.logo{
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 50px 150px 50px 50px;
 }
 .feature{
 	display: inline-block;
 	font-size: 20px;
+	text-align:left;
+	width: 40%;
+	margin: 50px 0px 50px 100px;
+}
+.about{
+	float: right;
+	width: 37%;
+	font-size: 20px;
+	margin: 50px 100px 100px 0px;
+	
 
 }
+.services{
+display:inline-block;
+	font-size: 20px;
+width: 20%;
+	margin: 50px 0px 50px 250px;
 
+}
+.product{
+	float: left;
+width: 20%;
+font-size: 20px;
+margin: 50px 50px 50px 0px;
+	
+}
+.vision{
+	float: right;
+	width: 20%;
+	font-size: 20px;
+	vertical-align: top;
+	margin: 50px 0px 50px 50px;
+	
+}
+.middle{
+	width: 100%;
+margin: 50px 100px 110px 20px;
+}
+.contact{
+	display: inline-block;
+	font-size: 20px;
+	margin: 0px 0px 100px 0px;
+}
+address{
+	font-size: 15px;
+	width: 15%;
+	margin: 10px 0px 0px 100px;
+
+}
+.number{
+	font-size: 15px;
+	width: 15%;
+	margin: 10px 0px 0px 100px;
+}
+.email{
+	font-size: 15px;
+	width: 15%;
+	margin: 10px 0px 0px 100px;
+}
+.copyright{
+	text-align: center;
+}
