@@ -1,9 +1,13 @@
 *{
-    margin: 200px;
+    margin: 300px;
 }
 .titles{
     word-spacing: 100px;
-    color: gray;
+    
+}
+.titles a{
+    text-decoration: none;
+    color: grey;
 }
 .logo{
     margin-right: 100px;
@@ -178,9 +182,29 @@ li{
 }
 footer{
     text-align: center;
+    
 }
 .facts{
     display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 110%;
 }
-
+.facts p{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+.facts li{
+    margin: 3%;
+}
+.last{
+    display: flex;
+    flex-direction: row;
+}
+.last img{
+    margin-left: 10%;
+}
 
